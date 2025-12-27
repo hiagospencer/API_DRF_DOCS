@@ -1,0 +1,44 @@
+site_name: API Profissional - Django REST Framework
+site_description: Documentação oficial da API construída com Django REST Framework
+site_author: Hiago Souza
+repo_url: https://github.com/seu-usuario/seu-repo
+repo_name: GitHub
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.tabs.link
+    - search.highlight
+    - search.suggest
+  palette:
+    scheme: slate
+    primary: blue
+    accent: cyan
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - pymdownx.emoji
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Visão Geral: index.md
+  - Arquitetura: architecture.md
+  - Autenticação: auth.md
+  - Usuários: users.md
+  - Produtos: products.md
+  - Convenções: conventions.md
