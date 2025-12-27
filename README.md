@@ -260,11 +260,7 @@ Isso mantém:
 ### 1️⃣ Clonar o repositório
 
 ```
-<<<<<<< HEAD
 git clone https://github.com/hiagospencer/API_DRF_DOCS
-=======
-git clone https://github.com/seu-usuario/seu-repo.git
->>>>>>> 00801eb861543fbc70a913426b424de7147e85b3
 ```
 
 ### 2️⃣ Criar ambiente virtual
